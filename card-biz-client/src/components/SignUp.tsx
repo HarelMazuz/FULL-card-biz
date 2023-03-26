@@ -5,7 +5,7 @@ import { useNavigate } from "react-router-dom";
 import * as yup from "yup";
 import { UserData } from "../App";
 import User from "../interfaces/User";
-import { sucessMsg } from "../services/feedbacks";
+import { errMsg, sucessMsg } from "../services/feedbacks";
 import { createUser } from "../services/UserService";
 
 interface SignUpProps {}
@@ -37,7 +37,10 @@ const SignUp: FunctionComponent<SignUpProps> = () => {
           setIsLoggedIn(true);
           setUserId(payload._id);
         })
-        .catch((err) => console.log(err));
+        .catch((err) => {
+          errMsg("This user already exists, pleas sign up with diffrent email");
+          console.log(err);
+        });
     },
   });
   return (

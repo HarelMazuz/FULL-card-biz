@@ -1,0 +1,27 @@
+.about-text {
+  text-align: justify;
+  line-height: 1.5rem;
+  font-size: 1.1rem;
+}
+
+.about-img {
+  width: 50%;
+  height: auto;
+  border: 3px solid $biz_pink;
+  float: right;
+}
+
+//less then large
+@media (max-width: 992px) {
+  .about-img {
+    width: 80%;
+    float: none;
+    margin: 1.4rem 0;
+  }
+  .div-mobile {
+    padding: 0 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}

@@ -1,0 +1,20 @@
+.footer {
+  position: relative;
+  bottom: 0;
+  height: 70px;
+  width: 100%;
+  background-color: $biz_blue;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+}
+
+.footer-title {
+  font-family: "Montserrat Alternates", sans-serif;
+  font-size: 1.3rem;
+}
+
+.copyright {
+  font-size: 0.8rem;
+  opacity: 0.7;
+}

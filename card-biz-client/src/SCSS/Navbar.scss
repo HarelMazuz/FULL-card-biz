@@ -1,0 +1,33 @@
+.navbar {
+  background-color: $biz_blue;
+  border-bottom: 3px solid $biz_pink;
+  .nav-item {
+    display: flex;
+    align-items: center;
+  }
+  .nav-link {
+    padding: 0 2rem;
+    margin: 0 0.3rem;
+    color: aliceblue;
+    font-size: 1rem;
+    font-family: "Play", sans-serif;
+    font-size: 1.1rem;
+  }
+  .nav-link:hover {
+    color: $biz_pink;
+    transition: all 0.1s ease-in-out;
+    transform: translateY(-9%);
+  }
+  .navbar-nav .nav-link.active {
+    font-size: 1.3rem;
+    color: $biz_pink;
+    font-weight: 900;
+    margin-top: -0.1rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .nav-item {
+    padding: 0.3rem 0;
+  }
+}

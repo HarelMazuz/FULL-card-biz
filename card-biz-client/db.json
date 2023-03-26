@@ -1,0 +1,88 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Harel Mazuz",
+      "email": "mazouz5353@gmail.com",
+      "password": "12345678",
+      "isAdmin": true
+    },
+    {
+      "name": "aa",
+      "email": "aa@aa.com",
+      "password": "12345678",
+      "isAdmin": false,
+      "id": 2
+    },
+    {
+      "name": "bb",
+      "email": "bb@bb.bb",
+      "password": "12345678",
+      "isAdmin": false,
+      "id": 3
+    },
+    {
+      "name": "cc",
+      "email": "cc@cc.cc",
+      "password": "12345678",
+      "isAdmin": true,
+      "id": 4
+    }
+  ],
+  "cards": [
+    {
+      "name": "Apple",
+      "description": "tablet & phones",
+      "address": "Tel Aviv",
+      "phone": "0505555555",
+      "img": "https://1000logos.net/wp-content/uploads/2016/10/Apple-Logo.png",
+      "userId": 1,
+      "id": 1
+    },
+    {
+      "name": "Harry 600",
+      "description": "adfsegrgrgfhtjymjyjfththhtyjhththth",
+      "address": "asdas",
+      "phone": "0502114111",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRs6yG37nWzcaJLm_onhGcsL1kFoFav5yEdO1zaYkBRmbxKUvSYDa69HjuZZ1eS0XnF-m4&usqp=CAU",
+      "userId": 1,
+      "id": 4
+    },
+    {
+      "name": "Razer",
+      "description": "Razer Inc. is an American-Singaporean multinational technology company that designs, develops, and sells consumer electronics, financial services, and gaming hardware. The company was founded in 1998 by Min-Liang Tan and Robert \"RazerGuy\" Krakoff.[3] It is dual headquartered in the one-north subzone of Queenstown, Singapore and Irvine, California, US.[4]",
+      "address": "TLV",
+      "phone": "0502114112",
+      "img": "https://1000logos.net/wp-content/uploads/2019/06/razer.jpg",
+      "userId": 1,
+      "id": 5
+    },
+    {
+      "name": "Tesla",
+      "description": "We’re building a world powered by solar energy, running on batteries and transported by electric vehicles. Explore the most recent impact of our products, people and supply chain.",
+      "address": "USA",
+      "phone": "1474555555",
+      "img": "https://cdn.mos.cms.futurecdn.net/BQwukuZwwwXrg27B9Le2Q6.png",
+      "userId": 1,
+      "id": 6
+    },
+    {
+      "name": "Harry",
+      "description": "The Microsoft new earphones with high quality",
+      "address": "USA",
+      "phone": "0502114112",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRs6yG37nWzcaJLm_onhGcsL1kFoFav5yEdO1zaYkBRmbxKUvSYDa69HjuZZ1eS0XnF-m4&usqp=CAU",
+      "userId": 4,
+      "id": 8
+    },
+    {
+      "name": "Harrgr",
+      "description": "efhht",
+      "address": "אלה 10",
+      "phone": "0502114111",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRs6yG37nWzcaJLm_onhGcsL1kFoFav5yEdO1zaYkBRmbxKUvSYDa69HjuZZ1eS0XnF-m4&usqp=CAU",
+      "userId": 1,
+      "id": 9
+    }
+  ]
+}

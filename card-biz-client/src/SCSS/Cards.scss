@@ -1,0 +1,76 @@
+.business-card {
+  background-color: #f0f8ff;
+  margin-bottom: 20px;
+}
+
+.img-container {
+  height: 11rem;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  img {
+    width: 100%;
+    height: auto;
+  }
+}
+
+.business-card-header {
+  background-color: #bf2051;
+  color: #fff;
+  font-family: "Play", sans-serif;
+  text-align: center;
+}
+
+.description {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: clip;
+}
+
+.description:hover,
+.long-des:hover {
+  white-space: normal;
+  + .long-des {
+    display: none;
+  }
+}
+
+.business-card-primary-action {
+  background-color: #bf2051;
+  color: #ffffff;
+}
+
+.business-card-primary-action:hover {
+  background-color: #bf2051;
+  color: #ffffff;
+  filter: brightness(90%);
+}
+
+.business-card-secondary-action {
+  background-color: #ffffff;
+  border-color: #bf2051;
+  color: #bf2051;
+}
+
+.business-card-secondary-action:hover {
+  background-color: #ffffff;
+  border-color: #bf2051;
+  color: #bf2051;
+  filter: brightness(90%);
+}
+
+// medium
+@media (max-width: 768px) {
+  .img-container {
+    height: auto;
+    max-height: 15rem;
+  }
+}
+
+//extra large
+@media (max-width: 1200px) {
+  .alert {
+    width: 90% !important;
+  }
+}

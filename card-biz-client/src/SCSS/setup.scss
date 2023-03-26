@@ -1,0 +1,52 @@
+$biz_blue: #1b4571;
+$biz_pink: #bf2051;
+$biz_white: #f0f8ff;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.form-control {
+  border-left: 4px solid #bf2051;
+}
+
+body {
+  margin: 0;
+  background-color: #f0f8ff;
+}
+
+.body {
+  min-height: calc(100vh - 70px);
+}
+
+h1 {
+  color: #1b4571;
+  font-family: "Montserrat Alternates", sans-serif;
+  font-weight: 900;
+}
+
+//slide-buttons
+.btn-biz {
+  padding-right: 8rem;
+  background-color: $biz_pink;
+  color: aliceblue;
+  font-family: "Play", sans-serif;
+  border-radius: 30px;
+}
+
+.btn-biz:disabled {
+  @extend .btn-biz;
+}
+
+.btn-biz:hover {
+  @extend .btn-biz;
+  filter: brightness(90%);
+  transition: all 0.2s ease-in-out;
+  .login-arrow {
+    left: 100%;
+    transition: all 0.7s ease-in-out;
+  }
+}
+
+/////////////////////////////////////
